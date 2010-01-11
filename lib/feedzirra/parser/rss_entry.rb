@@ -35,6 +35,8 @@ module Feedzirra
       elements :category, :as => :categories
 
       element :guid, :as => :id
+      
+      element 'georss:point', :as => :point
     end
 
   end
